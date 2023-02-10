@@ -30,7 +30,9 @@ class LoginViewModel : DefaultViewModel() {
             if (result is Result.Success) _isLoggedInEvent.value = Event(result.data!!)
             if (result is Result.Success || result is Result.Error){
                 isLoggingIn.value = false
-                throw IllegalArgumentException("error login!")
+                if (result is Result.Error) {
+                    throw IllegalArgumentException("error login!")
+                }
             }
         }
     }
