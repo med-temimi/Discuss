@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "691455322739",
+    "firebase_url": "https://discuss-7ab9b-default-rtdb.firebaseio.com",
+    "project_id": "discuss-7ab9b",
+    "storage_bucket": "discuss-7ab9b.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:691455322739:android:0727b4b6787f159a071806",
+        "android_client_info": {
+          "package_name": "com.med.discuss"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "691455322739-c83g67gl4036hhvu2tjtj9htrkhjc1nv.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD01qBDwSQfwkxFeS3KSrnZZVLMRp2D0GM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "691455322739-c83g67gl4036hhvu2tjtj9htrkhjc1nv.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
